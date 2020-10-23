@@ -1,4 +1,4 @@
- class Bubbles
+class Bubbles
 {
   int myX;
   float myY;
