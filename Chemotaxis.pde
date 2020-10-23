@@ -15,7 +15,7 @@ class Bubbles
     mySpeed = mySize/100.0;
     myColor = color(171, 220, 255);
   }
-  void rise()
+  void move()
   {
     if(mouseX > myX)
     myX = myX + (int)(Math.random()*5)-2;
@@ -47,7 +47,7 @@ void draw() {
   background(255, 255, 255);
   for (int i = 0; i < bob.length; i++) {
     bob[i].show();
-    bob[i].rise();
+    bob[i].move();
   }
   
 }
